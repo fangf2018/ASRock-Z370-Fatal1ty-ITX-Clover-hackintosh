@@ -13,6 +13,8 @@ cpu：8700k es qn8g
 
 显卡：amd 蓝宝石 rx570
 
+网卡：BCM943602CS
+
 ## BIOS设置
 
 Advanced \ Chipset Configuration → Vt-d : Disabled
