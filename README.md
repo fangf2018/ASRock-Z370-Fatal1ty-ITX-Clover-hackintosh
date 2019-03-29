@@ -2,8 +2,13 @@
 # ASRock-Z370-Gaming-ITX-ac-hackintosh
 
 ## 更新记录
+### 2019-03-29 
+* 增加两个ssdt解决雷电热插拔 去除已失效驱动IOElectrify.kext
+* 系统升级10.14.5 Beta1 (18F96h)无异常
+* CLOVER 升级到r4910
 
-2019-03-26 首次上传 系统版本 10.14.4正式版 CLOVER r4903
+### 2019-03-26 
+* 首次上传 系统版本 10.14.4正式版 CLOVER r4903
 
 ## 配置
 
