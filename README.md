@@ -6,6 +6,9 @@
 * 增加两个ssdt解决雷电热插拔 去除已失效驱动IOElectrify.kext
 * 系统升级10.14.5 Beta1 (18F96h)无异常
 * CLOVER 升级到r4910
+* 增加一个主题，系统等待时间改为1秒
+![](https://portal.qiniu.com/cdn/domain/pp3z2fte1.bkt.clouddn.com/15538304044011.jpg)
+
 
 ### 2019-03-26 
 * 首次上传 系统版本 10.14.4正式版 CLOVER r4903
