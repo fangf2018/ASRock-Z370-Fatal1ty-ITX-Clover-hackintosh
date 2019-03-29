@@ -161,14 +161,14 @@
 		<false/>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
-		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -276,7 +276,7 @@
 		<key>ScreenResolution</key>
 		<string>2560x1080</string>
 		<key>Theme</key>
-		<string>blackStart</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
