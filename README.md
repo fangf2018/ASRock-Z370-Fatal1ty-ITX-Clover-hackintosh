@@ -2,12 +2,17 @@
 # ASRock-Z370-Gaming-ITX-ac-hackintosh
 
 ## 更新记录
+### 2019-04-08
+* 升级clover版本4919
+* 更换机型19，2
+* 因es cpu原因原生电源管理效率低，改用非原生电源管理并弃用AGPMInjector.kext
+
+
 ### 2019-03-29 
 * 增加两个ssdt解决雷电热插拔 去除已失效驱动IOElectrify.kext
 * 系统升级10.14.5 Beta1 (18F96h)无异常
 * CLOVER 升级到r4910
 * 增加一个主题，系统等待时间改为1秒
-![1](https://portal.qiniu.com/cdn/domain/pp3z2fte1.bkt.clouddn.com/15538304044011.jpg)
 
 
 ### 2019-03-26 
