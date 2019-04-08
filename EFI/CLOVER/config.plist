@@ -141,11 +141,11 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<false/>
-				<key>PStates</key>
-				<false/>
-				<key>PluginType</key>
 				<true/>
+				<key>PStates</key>
+				<true/>
+				<key>PluginType</key>
+				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -188,6 +188,8 @@
 		<false/>
 		<key>TurboDisable</key>
 		<false/>
+		<key>Type</key>
+		<string>0x00</string>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
@@ -380,17 +382,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/28/2018</string>
+		<string>02/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1809280842</string>
+		<string>IM192.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02732609GUJ0PGJC</string>
+		<string>C029011024NKGQGJA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -402,7 +404,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>166.0.0.0.0</string>
+		<string>220.250.368.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -418,11 +420,11 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02V60R3J1GJ</string>
+		<string>C02Y2SYVJWDW</string>
 		<key>SmUUID</key>
-		<string>D9239B17-9B61-40DE-A232-731C511D4EF5</string>
+		<string>A6717B08-80A4-4D58-A745-30FF269F56E4</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
