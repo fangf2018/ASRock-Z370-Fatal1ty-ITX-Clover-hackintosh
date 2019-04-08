@@ -141,11 +141,11 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
-				<key>PStates</key>
-				<true/>
-				<key>PluginType</key>
 				<false/>
+				<key>PStates</key>
+				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -198,7 +198,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>1</integer>
+			<string>No</string>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -209,13 +209,6 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>#PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>
-				AQAAAA==
-				</data>
-			</dict>
 			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -229,6 +222,13 @@
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<data>
+				AQAAAA==
 				</data>
 			</dict>
 		</dict>
