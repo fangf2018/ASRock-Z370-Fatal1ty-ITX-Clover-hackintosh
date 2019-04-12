@@ -156,7 +156,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 -cdfon -igfxnohdmi brcmfx-country=#a kext-dev-mode=1</string>
+		<string>nv_disable=1 dart=0 -cdfon -igfxnohdmi brcmfx-country=#a kext-dev-mode=1 -v</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -188,8 +188,6 @@
 		<false/>
 		<key>TurboDisable</key>
 		<false/>
-		<key>Type</key>
-		<string>0x00</string>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
@@ -386,13 +384,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM192.88Z.F000.B00.1902181222</string>
+		<string>IM191.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-63001698E7A34814</string>
+		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C029011024NKGQGJA</string>
+		<string>C02923104CDLNV9FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -420,11 +418,11 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac19,2</string>
+		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02Y2SYVJWDW</string>
+		<string>C02YT0NNJV3Q</string>
 		<key>SmUUID</key>
-		<string>A6717B08-80A4-4D58-A745-30FF269F56E4</string>
+		<string>6164E0C6-AEEB-40B7-BF97-B0248AFAFBC3</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
