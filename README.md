@@ -34,6 +34,8 @@ cpu：8700k es qn8g
 
 网卡：BCM943602CS
 
+其他配置信息 [点我查看](https://github.com/fangf2018/ASRock-Z370-Gaming-ITX-ac-hackintosh/issues/1#issuecomment-489914538)
+
 ## BIOS设置
 
 Advanced \ Chipset Configuration → Vt-d : Disabled
