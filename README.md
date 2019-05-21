@@ -7,12 +7,14 @@
 ###  2019-05-21
 * 机型更换到更新imac pro1,1 bios需关闭核显
 
-Advanced \ Chipset Configuration → Share Memory : Auto
-
-Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
-
+> Advanced \ Chipset Configuration → Share Memory : Auto
+>
+> Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
+>
 * fakesmc更换成VirtualSMC
 * 常规升级 10.14.6 Beta 18G29g
+* cpu变频优化 
+> 6个档位 800 2400 2800 3700 3800 4200
 关于机型最近折腾了很多，为什么最近选择了imac pro1,1 基于一下几点
 > 1、uhd630这个显卡比较尴尬的是fcpx在渲染输出的时候参与加速并不明显
 > 
