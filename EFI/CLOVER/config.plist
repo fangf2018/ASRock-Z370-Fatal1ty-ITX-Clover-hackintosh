@@ -14,14 +14,24 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<true/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>DeleteUnused</key>
+				<true/>
+				<key>FixDisplay</key>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
 				<false/>
+				<key>FixMutex</key>
+				<true/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
+				<key>FixRegions</key>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -170,7 +180,7 @@
 		<key>Timeout</key>
 		<integer>1</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -183,7 +193,7 @@
 		<key>FrequencyMHz</key>
 		<integer>3200</integer>
 		<key>HWPEnable</key>
-		<false/>
+		<true/>
 		<key>QEMU</key>
 		<false/>
 		<key>TurboDisable</key>
@@ -255,8 +265,10 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
+		<key>KbdPrevLang</key>
+		<true/>
 		<key>Language</key>
-		<string>en:0</string>
+		<string>zh_CN:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -379,15 +391,57 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>12/08/2017</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IMP11.88Z.0064.B30.1712081714</string>
+		<key>Board-ID</key>
+		<string>Mac-7BA5B2D9E42DDD94</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02704130GUJG361H</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>iMacPro-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x03</string>
+		<key>EfiVersion</key>
+		<string>220.250.330.0.0</string>
+		<key>Family</key>
+		<string>iMac Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFD8FF53F</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF9FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
+		<key>PlatformFeature</key>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
+		<key>SerialNumber</key>
+		<string>C02T507CHX87</string>
+		<key>SmUUID</key>
+		<string>3052F5D6-3F1C-4F32-98A3-7594FD518BF7</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 	</dict>
 </dict>
 </plist>
