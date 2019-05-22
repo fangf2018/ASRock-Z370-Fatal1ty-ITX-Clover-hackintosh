@@ -13,7 +13,6 @@ Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
 
 * fakesmc更换成VirtualSMC
 * 常规升级 10.14.6 Beta 18G29g
-<<<<<<< HEAD
 * cpu变频优化 
 > 6个档位 800 2400 2800 3700 3800 4200
 
