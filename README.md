@@ -21,7 +21,7 @@ Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
 
 =======
 关于机型最近折腾了很多，为什么最近选择了imac pro1,1 基于一下几点
->>>>>>> parent of d0b3dbf... CPU变频优化
+
 > 1、uhd630这个显卡比较尴尬的是fcpx在渲染输出的时候参与加速并不明显
 > 
 > 2、10.14.5版本系统后独显也可以单独硬解4k视频了，核显的意义不大了
