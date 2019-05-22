@@ -7,9 +7,10 @@
 ###  2019-05-21
 * 机型更换到更新imac pro1,1 bios需关闭核显
 
-Advanced \ Chipset Configuration → Share Memory : Auto
-
-Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
+> Advanced \ Chipset Configuration → Share Memory : Auto
+> 
+> Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
+> 
 
 * fakesmc更换成VirtualSMC
 * 常规升级 10.14.6 Beta 18G29g
