@@ -9,26 +9,23 @@
 ###  2019-05-21
 * 机型更换到更新imac pro1,1 bios需关闭核显
 
-Advanced \ Chipset Configuration → Share Memory : Auto
-
-Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
+> Advanced \ Chipset Configuration → Share Memory : Auto
+> 
+> Advanced \ Chipset Configuration → IGPU Multi-Monitor : Disabled
+> 
 
 * fakesmc更换成VirtualSMC
 * 常规升级 10.14.6 Beta 18G29g
-<<<<<<< HEAD
 * cpu变频优化 
 > 6个档位 800 2400 2800 3700 3800 4200
 
-#### 关于机型最近折腾了很多，为什么最近选择了imac pro1,1 基于一下几点
+#### 关于机型最近折腾了很多，为什么选择了imac pro1,1 并屏蔽核显，基于一下几点
 
-=======
-关于机型最近折腾了很多，为什么最近选择了imac pro1,1 基于一下几点
->>>>>>> parent of d0b3dbf... CPU变频优化
-> 1、uhd630这个显卡比较尴尬的是fcpx在渲染输出的时候参与加速并不明显
+> 1、uhd630这个显卡比较尴尬的是fcpx在渲染输出的时候参与加速并不明显、4k视频转场特效卡顿
 > 
 > 2、10.14.5版本系统后独显也可以单独硬解4k视频了，核显的意义不大了
 > 
-> 3、uhd630存在的意义不像是4代核心的显卡可以完美fcpx
+> 3、uhd630存在的意义不像是4代核心的显卡（hd4600等）可以完美fcpx
 > 
 > 4、与其增加功耗，不如关闭核显，有效控制cpu温度
 > 
