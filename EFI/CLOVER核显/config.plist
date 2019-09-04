@@ -121,6 +121,20 @@
 					SUdQVQhfQURSDAAAAgA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -535,21 +549,27 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02727207GUH69FUE</string>
+		<key>ROM</key>
+		<data>
+		ZdZ741fp
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/19/2018</string>
+		<string>06/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM181.88Z.F000.B00.1812191142</string>
+		<string>IM181.88Z.F000.B00.1906171613</string>
 		<key>Board-ID</key>
 		<string>Mac-4B682C642B45593E</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02746306QXH69FA8</string>
+		<string>C02709500J9H69FAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -561,7 +581,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>167.0.0.0.0</string>
+		<string>175.0.0.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -579,16 +599,18 @@
 		<key>ProductName</key>
 		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C02VP0DMH7JY</string>
+		<string>C02TCEYGH7JY</string>
 		<key>SmUUID</key>
-		<string>F574282D-9424-4B1E-A6F7-4F96D7E92C3B</string>
+		<string>EAAEFBAF-23C9-4C0C-BCDC-B258F12BA182</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>343D17A5-107F-4AB7-8B65-69ADB4020AF8</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 	</dict>
 </dict>
 </plist>
