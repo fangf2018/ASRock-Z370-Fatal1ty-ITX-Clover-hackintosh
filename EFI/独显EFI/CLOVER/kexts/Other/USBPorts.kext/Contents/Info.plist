@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMacPro1,1-XHC</key>
+		<key>iMac19,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -38,7 +38,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				GAAAAA==
+				FgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -80,6 +80,8 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -89,15 +91,37 @@
 					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CQAAAA==
 						</data>
 					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
 					<key>HS14</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -141,62 +165,28 @@
 						FAAAAA==
 						</data>
 					</dict>
-					<key>SS07</key>
+					<key>SS05</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						FwAAAA==
+						FQAAAA==
 						</data>
 					</dict>
-					<key>SS08</key>
+					<key>SS06</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						GAAAAA==
+						FgAAAA==
 						</data>
 					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMacPro1,1</string>
-		</dict>
-		<key>iMacPro1,1-XHC5</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
-			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC5</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>SSP1</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>iMacPro1,1</string>
+			<string>iMac19,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
