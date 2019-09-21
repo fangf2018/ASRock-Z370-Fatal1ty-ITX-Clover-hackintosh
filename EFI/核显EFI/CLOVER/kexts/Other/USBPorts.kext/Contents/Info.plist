@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMac18,1-XHC</key>
+		<key>iMac19,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -36,17 +36,9 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>3600</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5200</integer>
 				<key>port-count</key>
 				<data>
-				GAAAAA==
+				FgAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -99,8 +91,10 @@
 					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>DevSpeed</key>
+						<integer>1</integer>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CQAAAA==
@@ -182,8 +176,6 @@
 					</dict>
 					<key>SS06</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -191,73 +183,10 @@
 						FgAAAA==
 						</data>
 					</dict>
-					<key>SS07</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						FwAAAA==
-						</data>
-					</dict>
-					<key>SS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						GAAAAA==
-						</data>
-					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,1</string>
-		</dict>
-		<key>iMac18,1-XHC5</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
-			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC5</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AgAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>SSP1</key>
-					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-					<key>SSP2</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>iMac18,1</string>
+			<string>iMac19,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
