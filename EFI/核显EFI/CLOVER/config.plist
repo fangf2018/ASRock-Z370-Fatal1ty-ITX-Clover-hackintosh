@@ -69,34 +69,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change PEGP to GFX0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UEVHUA==
-					</data>
-					<key>Replace</key>
-					<data>
-					R0ZYMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
 					<key>Disabled</key>
 					<false/>

@@ -15,23 +15,23 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>DeleteUnused</key>
-				<true/>
+				<false/>
 				<key>FixDisplay</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
 				<false/>
 				<key>FixMutex</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -81,44 +81,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					R0ZYMA==
+					R1BSVwI=
 					</data>
 					<key>Replace</key>
 					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change PCI0.VID to IGPU #1 (Thinkpad)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UENJMFZJRF8=
-					</data>
-					<key>Replace</key>
-					<data>
-					UENJMElHUFU=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change PCI0.VID to IGPU #2 (Thinkpad)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					VklEXwhfQURSDAAAAgA=
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQhfQURSDAAAAgA=
+					WFBSVwI=
 					</data>
 				</dict>
 			</array>
@@ -172,7 +144,7 @@
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
@@ -193,7 +165,7 @@
 		<key>FrequencyMHz</key>
 		<integer>3200</integer>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 		<key>QEMU</key>
 		<false/>
 		<key>TurboDisable</key>
@@ -304,19 +276,15 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
 		<key>PatchVBios</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x3E920003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleRTC</key>
-		<true/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>ForceKextsToLoad</key>
@@ -324,9 +292,9 @@
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 		</array>
 		<key>KernelLapic</key>
-		<true/>
+		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -413,8 +381,6 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x03</string>
-		<key>EfiVersion</key>
-		<string>220.250.330.0.0</string>
 		<key>Family</key>
 		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
@@ -431,10 +397,6 @@
 		<string>0xFFFF</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
-		<key>SerialNumber</key>
-		<string>C02T507CHX87</string>
-		<key>SmUUID</key>
-		<string>3052F5D6-3F1C-4F32-98A3-7594FD518BF7</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
