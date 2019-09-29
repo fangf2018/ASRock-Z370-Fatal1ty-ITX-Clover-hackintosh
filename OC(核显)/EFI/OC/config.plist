@@ -8,11 +8,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>My custom DSDT</string>
+				<string>CPU原生电源管理</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>SSDT-PLUG-_PR.PR00.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -347,7 +347,7 @@
 				AAAAgA==
 				</data>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Desktop)</string>
+				<string>Intel UHD Graphics 630</string>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -702,7 +702,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>0</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -789,7 +789,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 dart=0 debug=0x100 darkwake=0</string>
+				<string>keepsyms=1 dart=0 debug=0x100 darkwake=0</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
