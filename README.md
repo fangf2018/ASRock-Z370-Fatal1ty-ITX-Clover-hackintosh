@@ -118,4 +118,5 @@ Advanced \ Chipset Configuration → IGPU Multi-Monitor : Enabled
 **[ZeRo° Xu](https://github.com/xzhih)(冰水加劲Q)**
 
 **[acidanthera](https://github.com/acidanthera/OpenCorePkg)**
+
 **[Bat.bat](https://github.com/williambj1)**
