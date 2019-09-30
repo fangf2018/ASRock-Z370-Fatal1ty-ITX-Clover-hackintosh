@@ -36,15 +36,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-DTPG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-Z370-TB3HP.aml</string>
+				<string>SSDT-TB3.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -53,30 +45,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>aaron-usb-config.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-EHCx_OFF.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-AWAC.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -566,9 +534,9 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>Resolution</key>
-			<string>2560x1080@60</string>
+			<string></string>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>Timeout</key>
 			<integer>1</integer>
 			<key>UsePicker</key>
@@ -657,7 +625,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 dart=0 debug=0x100 darkwake=0</string>
+				<string>keepsyms=1 dart=0 debug=0x100 darkwake=8</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
