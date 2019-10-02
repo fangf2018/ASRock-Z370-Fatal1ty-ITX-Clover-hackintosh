@@ -90,41 +90,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Rename HDAS to HDEF</string>
-				<key>Count</key>
-				<integer>1</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				SERBUw==
-				</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data>
-				</data>
-				<key>OemTableId</key>
-				<data>
-				</data>
-				<key>Replace</key>
-				<data>
-				SERFRg==
-				</data>
-				<key>ReplaceMask</key>
-				<data>
-				</data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>change HECI to IMEI</string>
 				<key>Count</key>
 				<integer>1</integer>
@@ -160,7 +125,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
+				<string>GPRW to XPRW</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -353,6 +318,22 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -364,23 +345,6 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
-				<key>New item</key>
-				<dict>
-					<key>BundlePath</key>
-					<string>SMCSuperIO.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<true/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/SMCSuperIO</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -551,7 +515,7 @@
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>Target</key>
-			<integer>19</integer>
+			<integer>65</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -559,13 +523,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Not signed for security reasons</string>
+				<string>Macintosh HD</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Name</key>
-				<string>CustomOS</string>
+				<string>Macintosh HD</string>
 				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<string>PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)/HD(1,GPT,987AF4BE-FCB5-4CA3-A719-B3D798E95FF0,0x28,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -625,7 +589,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 dart=0  darkwake=8 -v</string>
+				<string>keepsyms=1 dart=0  darkwake=8 </string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -652,7 +616,7 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<false/>
+		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -801,7 +765,7 @@
 			<key>MemoryFormFactor</key>
 			<integer>9</integer>
 			<key>PlatformFeature</key>
-			<integer>0</integer>
+			<integer>22</integer>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>SmcVersion</key>
@@ -821,7 +785,7 @@
 			<key>SystemUUID</key>
 			<string>C7FF4784-CF81-4032-AF5B-EA89EBE55501</string>
 			<key>SystemVersion</key>
-			<string>1.1</string>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
