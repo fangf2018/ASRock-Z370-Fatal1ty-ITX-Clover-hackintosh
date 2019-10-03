@@ -14,6 +14,18 @@
 
 ## 更新记录
 
+###2019-10-3
+
+* 增加一个4.10版本的bios 已更改为苹果启动logo 可直接刷入 参考[修改教程](https://www.bilibili.com/read/cv2788822/)
+
+* 主logo
+
+    ![2](http://github.fangf.cc/2019-10-03-2.jpg)
+    
+* 右下角文字
+
+    ![IMG_8883](http://github.fangf.cc/2019-10-03-IMG_8883.JPG)
+
 ###  2019-09-30
 * 不再更新clover，全面转移到OpenCore，仅核显配置19,2
 
