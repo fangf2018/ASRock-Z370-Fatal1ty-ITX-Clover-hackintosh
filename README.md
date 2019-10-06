@@ -4,6 +4,7 @@
 这个仓库以后就不再更新了 
 
 转移到 
+
 [z370核显OpenCore(macmini8,1)](https://github.com/fangf2018/ASRock-Z370-Fatal1ty-ITX-OpenCore-hackintosh) 
 
 [z390独显OpenCore(imac19,1)](https://github.com/fangf2018/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh)
