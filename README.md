@@ -1,7 +1,7 @@
 
 # ASRock-Z370-Gaming-ITX-ac-hackintosh
 ###  2019-10-05
-这个仓库以后就不再更新了 
+停更
 
 转移到 
 
