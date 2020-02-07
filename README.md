@@ -5,22 +5,24 @@
 
 转移到 
 
-[z370核显OpenCore(macmini8,1)](https://github.com/fangf2018/ASRock-Z370-Fatal1ty-ITX-OpenCore-hackintosh) 
+[z370独显OpenCore(imac19,2)](https://github.com/fangf2018/ASRock-Z370-Fatal1ty-ITX-OpenCore-hackintosh) 
 
 [z390独显OpenCore(imac19,1)](https://github.com/fangf2018/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh)
 
 很乱很乱，期间有很多不懂的地方，
 也给大家造成了很多的误导,在这里和大家说一声抱歉，也欢迎大家一起来交流 
-OpenCore群538643249 z370/z390群838739020
-这台机器因为折腾期间矿卡挂掉了，然后折腾的时候cpu也挂了，索性就升级了 9700k+z390，说实话z390真的很难折腾，黑苹果老老实实用z370主板真的非常省心
+OpenCore群538643249 
+z370/z390群838739020
+这台机器因为折腾期间矿卡挂掉了，然后折腾的时候cpu也挂了，索性就升级了 9700k+z390，
+现阶段z390已经很完美了（2020年1月）
 
 
-<img style="width:500px;" src="http://pylzvsh3j.bkt.clouddn.com/2019-09-30-QQ20190930-040354.png"/>
+<img style="width:500px;" src="http://github.fangf.cc/2019-09-30-QQ20190930-040354.png"/>
 
-<img style="width:600px;" src="http://pylzvsh3j.bkt.clouddn.com/2019-09-30-z370.png" />
+<img style="width:600px;" src="http://github.fangf.cc/2019-09-30-z370.png" />
 
 
-<img style="width:500px;" src="http://pylzvsh3j.bkt.clouddn.com/2019-09-30-QQ20190930-192427@2x.png"/>
+<img style="width:500px;" src="http://github.fangf.cc/2019-09-30-QQ20190930-192427@2x.png"/>
 
 
 
